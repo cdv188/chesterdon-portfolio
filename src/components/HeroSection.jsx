@@ -6,22 +6,25 @@ export const HeroSection = () => {
       id="hero"
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
+      <img
+        src="/src/assets/backImg.png"
+        alt=""
+        className="absolute right-1.5 md:top-4 md:w-2xl w-1/2 top-3/5"
+      />
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in">Hi, I'm</span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}
+            <span className="text-primary text-glow opacity-0 animate-fade-in-delay-1">
               Chester Don
             </span>
             <span className="opacity-0 text-gradient ml-2 animate-fade-in-delay-2">
-              {" "}
               Valencerina
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I'm a Programmer with a passion for creating user-friendly
-            and efficient applications.
+          <p className="text-lg text md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+            I'm a Programmer with a passion for creating user-friendly and
+            efficient applications.
           </p>
           <div className="opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">

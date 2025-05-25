@@ -19,6 +19,16 @@
   --animate-fade-in-delay-4: fade-in 0.7s 0.8s ease-in-out forwards;
   --animate-meteor: meteor 5s linear infinite;
 
+  --animate-grow: grow 1.5s ease-out;
+
+  @keyframes grow {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
   @keyframes float {
     0%,
     100% {

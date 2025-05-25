@@ -9,11 +9,9 @@ export const AboutSection = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
         <div className="space-y-6">
-          <h3 className="text-2xl font-semibold">
-            Web Developer & Software Developer
-          </h3>
+          <h3 className="text-2xl font-semibold">Web Developer</h3>
           <p className="text-muted-foreground">
             With over 3 years of experience in the industry, I specialize in
             creating responsive, accessible, and user-friendly web applications.
@@ -21,8 +19,8 @@ export const AboutSection = () => {
 
           <p className="text-muted-foreground">
             I'm a level 3 student at Algonquin College studying computer
-            programming. I'm a passionate developer with a drive for creating
-            user-friendly and efficient applications.
+            programming. I'm a passionate developer with a drive for learning
+            new technologies and I'm always looking for new challenges.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center items-center">
@@ -63,7 +61,8 @@ export const AboutSection = () => {
               <div className="text-left">
                 <h4 className="text-lg font-semibold">Design</h4>
                 <p className="text-muted-foreground">
-                  Designing intuitive user interfaces and seamless user experiences.
+                  Designing intuitive user interfaces and seamless user
+                  experiences.
                 </p>
               </div>
             </div>
@@ -77,11 +76,19 @@ export const AboutSection = () => {
               <div className="text-left">
                 <h4 className="text-lg font-semibold"> Project Management</h4>
                 <p className="text-muted-foreground">
-                  Guided team projects by delegating tasks and from conception to completion with agile methodologies.
+                  Guided team projects by delegating tasks and from conception
+                  to completion with agile methodologies.
                 </p>
               </div>
             </div>
           </div>
+        </div>
+        <div className="gradient-border card-hover">
+          <img
+            src="/src/assets/profileImg.png"
+            alt="profile"
+            className="w-full h-full object-cover rounded-lg"
+          />
         </div>
       </div>
     </section>
