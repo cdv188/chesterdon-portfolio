@@ -9,7 +9,7 @@ const projects = [
     image: "/projects/project1client.png",
     tags: ["PHP", "HTML/CSS", "MySQL", "JavaScript"],
     link: "#",
-    githubUrl: "https://github.com/yamashita231",
+    githubUrl: "https://github.com/cdv188/sweet_indulgence",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const projects = [
     image: "/projects/project2client.png",
     tags: ["PHP", "HTML/CSS", "MySQL", "JavaScript"],
     link: "#",
-    githubUrl: "https://github.com/yamashita231",
+    githubUrl: "https://github.com/cdv188/book_catalog",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const projects = [
     image: "/projects/project3.png",
     tags: ["HTML/CSS", "JavaScript"],
     link: "#",
-    githubUrl: "https://github.com/yamashita231",
+    githubUrl: "https://github.com/cdv188/Portfolio",
   },
 ];
 
@@ -97,7 +97,7 @@ export const ProjectsSection = () => {
 
         <div className="text-center mt-12">
           <a
-            href="https://github.com/yamashita231"
+            href="https://github.com/cdv188"
             target="_blank"
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
           >
