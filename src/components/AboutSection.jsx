@@ -85,7 +85,7 @@ export const AboutSection = () => {
         </div>
         <div className="gradient-border card-hover">
           <img
-            src="/src/assets/profileImg.png"
+            src="/public/projects/profileImg.png"
             alt="profile"
             className="w-full h-full object-cover rounded-lg"
           />

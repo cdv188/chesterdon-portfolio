@@ -7,7 +7,7 @@ export const HeroSection = () => {
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
       <img
-        src="/src/assets/backImg.png"
+        src="/public/projects/backImg.png"
         alt=""
         className="absolute right-1.5 md:top-4 md:w-2xl w-1/2 top-3/5"
       />

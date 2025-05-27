@@ -58,7 +58,7 @@ export const StarBackground = () => {
   return (
     <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
       <div className="absolute top-2/6 lg:top-1/12">
-        <img src="/src/assets/background.png" alt="" className="top-1/2" />
+        <img src="/public/projects/background.png" alt="" className="top-1/2" />
       </div>
       {/*stars.map((star) => (
         <div
