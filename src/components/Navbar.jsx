@@ -34,13 +34,13 @@ export const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
         >
-          <span className="relative z-10">
+          <span className="relative z-10 animate-fade-in">
             <span className="text-glow text-foreground">Chester Don</span>{" "}
             Portfolio
           </span>
         </a>
         {/* desktop nav */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-8 animate-fade-in">
           {navItems.map((item, key) => (
             <a
               key={key}

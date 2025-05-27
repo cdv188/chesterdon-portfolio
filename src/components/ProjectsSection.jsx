@@ -9,7 +9,7 @@ const projects = [
     image: "/projects/project1client.png",
     tags: ["PHP", "HTML/CSS", "MySQL", "JavaScript"],
     link: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/yamashita231",
   },
   {
     id: 2,
@@ -19,17 +19,17 @@ const projects = [
     image: "/projects/project2client.png",
     tags: ["PHP", "HTML/CSS", "MySQL", "JavaScript"],
     link: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/yamashita231",
   },
   {
     id: 3,
     title: "Portfolio Website",
     description:
-      "My first ever static portfolio built with html/css and javascript.",
+      "My first ever static portfolio built with HTML/CSS and JavaScript. Implemented a responsive design that adapts to different screen sizes and user friendly interface.",
     image: "/projects/project3.png",
     tags: ["HTML/CSS", "JavaScript"],
     link: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/yamashita231",
   },
 ];
 
@@ -46,9 +46,9 @@ export const ProjectsSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, key) => (
+          {projects.map((project) => (
             <div
-              key={key}
+              key={project.id}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
@@ -73,7 +73,7 @@ export const ProjectsSection = () => {
                   {project.description}
                 </p>
                 <div className="flex justify-between items-center">
-                  <div className="flex space-x-3">
+                  <div className="flex space-x-4">
                     <a
                       href={project.link}
                       target="_blank"
