@@ -72,10 +72,10 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">Email</h4>
                     <a
-                      href="mailto:ggvalencerina1123@gmail.com"
+                      href="mailto:vale0192@algonquinlive.com"
                       className="text-muted-foreground hover:text-primary transition-colors duration-300"
                     >
-                      ggvalencerina1123@gmail.com
+                      vale0192@algonquinlive.com
                     </a>
                   </div>
                 </div>
