@@ -78,15 +78,6 @@ export const ProjectsSection = () => {
                   </p>
                   <div className="flex justify-between items-center">
                     <div className="flex space-x-4">
-                      {/* 
-                      <a
-                        href={project.link}
-                        target="_blank"
-                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                      >
-                        <ExternalLink size={20} />
-                      </a>
-                      */}
                       <a
                         href={project.githubUrl}
                         target="_blank"
