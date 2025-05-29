@@ -10,7 +10,7 @@ Welcome to my **Developer Portfolio** built with **React.js** and **Tailwind CSS
 
 ## 🌐 Live Demo
 
-🔗 [View Portfolio](#) &nbsp; _(https://react-tailwind-portfolio-nu.vercel.app/)_
+🔗 [View Portfolio](https://react-tailwind-portfolio-nu.vercel.app/)
 
 ---
 
