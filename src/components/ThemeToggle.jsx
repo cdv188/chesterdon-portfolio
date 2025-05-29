@@ -9,7 +9,7 @@ export const ThemeToggle = () => {
     if (storedTheme === "dark") {
       document.documentElement.classList.add("dark");
       setIsDarkMode(true);
-    }else{
+    } else {
       document.documentElement.classList.remove("dark");
       setIsDarkMode(false);
     }
@@ -17,22 +17,24 @@ export const ThemeToggle = () => {
 
   const toggleTheme = () => {
     if (isDarkMode) {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-      setIsDarkMode(false);
-    } else {
       document.documentElement.classList.add("dark");
       localStorage.setItem("theme", "dark");
       setIsDarkMode(true);
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+      setIsDarkMode(false);
     }
   };
 
   return (
-    <button onClick={toggleTheme} 
-    className={cn("fixed max-sm:right-20 top-4 right-5 z-50 p-2 rounded-full transition-colors duration-300 cursor-pointer",
+    <button
+      onClick={toggleTheme}
+      className={cn(
+        "fixed max-sm:right-20 top-4 right-5 z-50 p-2 rounded-full transition-colors duration-300 cursor-pointer",
         "focus:outline-hidden"
-    )}>
-
+      )}
+    >
       {isDarkMode ? (
         <Sun className="h-6 w-6 text-yellow-300" />
       ) : (
