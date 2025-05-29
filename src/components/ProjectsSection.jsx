@@ -78,6 +78,7 @@ export const ProjectsSection = () => {
                   </p>
                   <div className="flex justify-between items-center">
                     <div className="flex space-x-4">
+                      {/* 
                       <a
                         href={project.link}
                         target="_blank"
@@ -85,6 +86,7 @@ export const ProjectsSection = () => {
                       >
                         <ExternalLink size={20} />
                       </a>
+                      */}
                       <a
                         href={project.githubUrl}
                         target="_blank"
