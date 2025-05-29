@@ -1,16 +1,94 @@
-<<<<<<< HEAD
-# react-tailwind-portfolio
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Personal Portfolio
 
-Currently, two official plugins are available:
+Welcome to my **Developer Portfolio** built with **React.js** and **Tailwind CSS**. This site showcases my work, skills, and includes a fully functional contact form so you can easily get in touch!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> cb86335 (first commit)
+## 🌐 Live Demo
+
+🔗 [View Portfolio](https://react-tailwind-portfolio-nu.vercel.app/)
+
+---
+
+## 📁 Project Structure
+
+```
+📦 portfolio/
+├── public/
+│   └── projects/           # Public assets like images
+├── src/
+│   ├── assets/             # SVGs, PDFs (e.g., resume)
+│   ├── components/
+│   │   └── ui/             # Reusable UI components
+│   ├── hooks/              # Custom React hooks
+│   ├── lib/                # Utility functions
+│   ├── pages/              # Page-level components
+│   ├── App.jsx             # Main App component
+│   ├── main.jsx            # Entry point
+│   └── index.css           # Tailwind & custom styles
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## ✨ Features
+
+- 🔥 Built with **React.js** using **functional components**
+- 💅 Styled with **Tailwind CSS** for responsive design
+- 💼 Sections include:
+  - About
+  - Skills
+  - Projects
+  - Contact
+- 🌌 Animated background & smooth transitions
+- 📩 Functional **Contact Form** with validation and toast notifications
+- 🌓 **Theme toggle** (light/dark mode)
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repo:**
+
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 📤 Deployment
+
+This portfolio was easily deployed to this platform **Vercel**.
+
+---
+
+## 📫 Contact
+
+Feel free to connect with me through the **Contact** section of the site or reach out via:
+
+- 📧 Email: vale0192@algonquinlive.com
+- 🌐 LinkedIn: [linkedin.com/in/chestervalencerina](#)
+
+
+---
+
+> Designed and coded with ❤️ by Chester Don Valencerina
