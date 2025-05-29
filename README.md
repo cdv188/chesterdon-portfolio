@@ -57,8 +57,8 @@ Welcome to my **Developer Portfolio** built with **React.js** and **Tailwind CSS
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+   git clone https://github.com/cdv188/react-tailwind-portfolio.git
+   cd react-tailwind-portfolio
    ```
 
 2. **Install dependencies:**
