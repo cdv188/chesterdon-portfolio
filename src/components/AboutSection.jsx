@@ -1,6 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
 import { RevealOnScroll } from "./RevealOnScroll";
-import ResumePDF from "../assets/Resume.pdf";
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4 relative container">
