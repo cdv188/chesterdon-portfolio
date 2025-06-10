@@ -1,5 +1,6 @@
 import { Briefcase, Code, User } from "lucide-react";
 import { RevealOnScroll } from "./RevealOnScroll";
+import ResumePDF from "../assets/Resume.pdf";
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4 relative container">
@@ -30,7 +31,7 @@ export const AboutSection = () => {
                 Contact Me
               </a>
               <a
-                href="../assets/Resume.pdf"
+                href={ResumePDF}
                 download="Resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
