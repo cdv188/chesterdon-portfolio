@@ -1,7 +1,7 @@
 import { ArrowDown } from "lucide-react";
 import { RevealOnScroll } from "./RevealOnScroll";
 import Orb from "./Orb";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 export const HeroSection = () => {
   return (
     <section
@@ -58,6 +58,7 @@ export const HeroSection = () => {
         <span className="text-sm text-muted-foreground mb-2">Scroll</span>
         <ArrowDown className="h-5 w-5 text-primary" />
       </div>
+      <SpeedInsights />
     </section>
   );
 };
